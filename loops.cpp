@@ -38,4 +38,9 @@ int k = 1;
 do {
     cout << "Do-while count: " << k << endl;
     k++;
-} while (k <= 5);
+} while (k <= 5);// Nested loop example
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 2; j++) {
+        cout << "i=" << i << ", j=" << j << endl;
+    }
+}
