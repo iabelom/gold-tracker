@@ -39,4 +39,14 @@ for(int i=0;i<2;i++){
     }
 }
 
-cout << "Sum of 2D array: " << sum2D << endl;
+cout << "Sum of 2D array: " << sum2D << endl;int max_val = matrix[0][0];
+int min_val = matrix[0][0];
+
+for(int i=0;i<2;i++){
+    for(int j=0;j<3;j++){
+        if(matrix[i][j] > max_val) max_val = matrix[i][j];
+        if(matrix[i][j] < min_val) min_val = matrix[i][j];
+    }
+}
+
+cout << "Max: " << max_val << ", Min: " << min_val << endl;
