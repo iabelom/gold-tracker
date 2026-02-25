@@ -34,4 +34,6 @@ struct Event {
 };
 
 Event e = {"Birthday", {25,12,2026}};
-cout << e.name << " on " << e.date.day << "/" << e.date.month << "/" << e.date.year << endl;
+cout << e.name << " on " << e.date.day << "/" << e.date.month << "/" << e.date.year << endl;git add pointers.cpp
+git commit -m "feat: add const pointer example"
+git push
