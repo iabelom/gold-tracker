@@ -22,4 +22,7 @@
 
 ## Structs
 - struct Name { ... };
-- Access with .
+- Access with .## Operators
+- +, -, *, /, %
+- ++, --
+- ==, !=, <, >, <=, >=
