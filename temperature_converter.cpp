@@ -10,4 +10,11 @@ int main(){
 }float f;
 cout << "Enter Fahrenheit: ";
 cin >> f;
-cout << "Celsius: " << (f-32)*5/9 << endl;
+cout << "Celsius: " << (f-32)*5/9 << endl;char cont='y';
+while(cont=='y'){
+    cout << "Enter Celsius: ";
+    cin >> c;
+    cout << "Fahrenheit: " << (c*9/5)+32 << endl;
+    cout << "Another conversion? (y/n): ";
+    cin >> cont;
+}
