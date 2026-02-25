@@ -19,4 +19,6 @@ int* p = nums;
 
 for (int i = 0; i < 3; i++) {
     cout << "Value: " << *(p + i) << endl;
-}
+}git add pointers.cpp
+git commit -m "feat: add pointer arithmetic example"
+git push
