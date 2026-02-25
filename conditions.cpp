@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// Demonstrating if-else conditions
+// Demonstrating if-else conditions with user input
 
 int main() {
 
-    int number = 10;
+    int number;
+
+    cout << "Enter a number: ";
+    cin >> number;
 
     if (number > 0) {
         cout << "Number is positive" << endl;
