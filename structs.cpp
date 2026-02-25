@@ -54,4 +54,6 @@ int main(){
     Person p1 = createPerson("Alice",25);
     cout << p1.name << " " << p1.age << endl;
     return 0;
-}
+}Person p2 = {"Bob",30};
+Person* ptr = &p2;
+cout << ptr->name << " " << ptr->age << endl;
