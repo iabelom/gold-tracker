@@ -25,4 +25,6 @@
 - Access with .## Operators
 - +, -, *, /, %
 - ++, --
-- ==, !=, <, >, <=, >=
+- ==, !=, <, >, <=, >=## Type Casting
+- int to float: float x = (float)i;
+- float to int: int y = (int)f;
