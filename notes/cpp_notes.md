@@ -35,4 +35,8 @@
 - outfile << "text";
 - infile >> var;## Struct + Pointer
 - struct* ptr = &myStruct;
-- Access members: ptr->member
+- Access members: ptr->member## Operators & Precedence
+- Arithmetic: + - * / %
+- Comparison: == != < > <= >=
+- Logical: && || !
+- Precedence matters: use parentheses when needed
