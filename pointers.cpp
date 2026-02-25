@@ -21,4 +21,17 @@ for (int i = 0; i < 3; i++) {
     cout << "Value: " << *(p + i) << endl;
 }git add pointers.cpp
 git commit -m "feat: add pointer arithmetic example"
-git push
+git push#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int* p = &a;
+    int** pp = &p;
+
+    cout << "Value of a: " << a << endl;
+    cout << "Value via pointer: " << *p << endl;
+    cout << "Value via pointer to pointer: " << **pp << endl;
+
+    return 0;
+}
