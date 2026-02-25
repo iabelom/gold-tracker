@@ -39,4 +39,8 @@
 - Arithmetic: + - * / %
 - Comparison: == != < > <= >=
 - Logical: && || !
-- Precedence matters: use parentheses when needed
+- Precedence matters: use parentheses when needed## Coding Standards
+- Meaningful variable names
+- Comment your code
+- Consistent indentation
+- Use functions to avoid repetition
