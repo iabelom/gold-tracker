@@ -14,4 +14,9 @@ int main() {
     return 0;
 }git add structs.cpp
 git commit -m "feat: add basic struct example"
-git push
+git pushint nums[3] = {10, 20, 30};
+int* p = nums;
+
+for (int i = 0; i < 3; i++) {
+    cout << "Value: " << *(p + i) << endl;
+}
