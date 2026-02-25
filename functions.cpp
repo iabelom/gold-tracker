@@ -32,4 +32,18 @@ string greet(string name) {
 int main() {
     cout << greet("Iabelom") << endl;
     return 0;
+}#include <iostream>
+using namespace std;
+
+int square(int x) {
+    return x * x;
+}
+
+int sum_of_squares(int a, int b) {
+    return square(a) + square(b);
+}
+
+int main() {
+    cout << "Sum of squares: " << sum_of_squares(2, 3) << endl;
+    return 0;
 }
