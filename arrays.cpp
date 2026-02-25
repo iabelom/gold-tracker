@@ -49,4 +49,7 @@ for(int i=0;i<2;i++){
     }
 }
 
-cout << "Max: " << max_val << ", Min: " << min_val << endl;
+cout << "Max: " << max_val << ", Min: " << min_val << endl;string fruits[3] = {"Apple", "Banana", "Cherry"};
+for(int i=0;i<3;i++){
+    cout << "Fruit: " << fruits[i] << endl;
+}
