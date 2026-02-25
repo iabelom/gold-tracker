@@ -12,4 +12,6 @@ int main() {
     cout << "Value via pointer: " << *ptr << endl;
 
     return 0;
-}
+}git add structs.cpp
+git commit -m "feat: add basic struct example"
+git push
