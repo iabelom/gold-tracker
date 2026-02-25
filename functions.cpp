@@ -74,4 +74,13 @@ int main(){
     return 0;
 }git add functions.cpp
 git commit -m "feat: add recursive factorial function"
-git push
+git pushint* getArray(){
+    static int arr[3] = {1,2,3};
+    return arr;
+}
+
+int main(){
+    int* a = getArray();
+    for(int i=0;i<3;i++) cout << a[i] << endl;
+    return 0;
+}
