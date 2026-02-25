@@ -47,4 +47,24 @@ int main() {
     }
 
     return 0;
+}#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number >= 0) {
+        if (number % 2 == 0) {
+            cout << "Non-negative even number" << endl;
+        } else {
+            cout << "Non-negative odd number" << endl;
+        }
+    } else {
+        cout << "Negative number" << endl;
+    }
+
+    return 0;
 }
