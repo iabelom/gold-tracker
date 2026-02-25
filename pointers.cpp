@@ -48,4 +48,8 @@ int temp = *px;
 *px = *py;
 *py = temp;
 
-cout << "x: " << x << ", y: " << y << endl;
+cout << "x: " << x << ", y: " << y << endl;int num = 100;
+const int* p = &num;
+
+cout << "Value via const pointer: " << *p << endl;
+// *p = 200; // Error: cannot change through const pointer
