@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// Simple function example
+// Function with return value
 
-void greet(string name) {
-    cout << "Hello, " << name << "!" << endl;
+int add(int a, int b) {
+    return a + b;
 }
 
 int main() {
-    greet("Iabelom");
+    int sum = add(5, 3);
+    cout << "5 + 3 = " << sum << endl;
     return 0;
 }
