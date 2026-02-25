@@ -12,4 +12,15 @@ int main() {
         cout << endl;
     }
     return 0;
+}int choice;
+cout << "Enter position (1-9) for X: ";
+cin >> choice;
+int row=(choice-1)/3, col=(choice-1)%3;
+board[row][col] = 'X';
+
+for(int i=0;i<3;i++){
+    for(int j=0;j<3;j++){
+        cout << board[i][j] << " ";
+    }
+    cout << endl;
 }
