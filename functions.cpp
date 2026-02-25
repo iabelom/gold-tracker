@@ -56,4 +56,12 @@ int main(){
     cout << sum(2,3) << endl;
     cout << sum(2.5,3.5) << endl;
     return 0;
+}int multiply(int a, int b=2){
+    return a*b;
+}
+
+int main(){
+    cout << multiply(5) << endl; // Uses default b=2
+    cout << multiply(5,3) << endl;
+    return 0;
 }
