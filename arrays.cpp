@@ -54,4 +54,9 @@ for(int i=0;i<3;i++){
     cout << "Fruit: " << fruits[i] << endl;
 }for(string fruit : fruits){
     cout << "Fruit via range-for: " << fruit << endl;
+}string names[2][2] = {{"Alice","Bob"},{"Charlie","David"}};
+for(int i=0;i<2;i++){
+    for(int j=0;j<2;j++){
+        cout << "Name: " << names[i][j] << endl;
+    }
 }
