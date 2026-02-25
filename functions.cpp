@@ -64,4 +64,12 @@ int main(){
     cout << multiply(5) << endl; // Uses default b=2
     cout << multiply(5,3) << endl;
     return 0;
+}int factorial(int n){
+    if(n<=1) return 1;
+    else return n*factorial(n-1);
+}
+
+int main(){
+    cout << "Factorial of 5: " << factorial(5) << endl;
+    return 0;
 }
