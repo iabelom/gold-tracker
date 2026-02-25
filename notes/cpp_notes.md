@@ -43,4 +43,7 @@
 - Meaningful variable names
 - Comment your code
 - Consistent indentation
-- Use functions to avoid repetition
+- Use functions to avoid repetition## Quick Tips
+- Always initialize variables
+- Keep code readable with indentation
+- Comment tricky parts
