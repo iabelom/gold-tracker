@@ -22,4 +22,14 @@ int main() {
     int result = multiply(5, 3);
     cout << "5 * 3 = " << result << endl;
     return 0;
+}#include <iostream>
+using namespace std;
+
+string greet(string name) {
+    return "Hello, " + name;
+}
+
+int main() {
+    cout << greet("Iabelom") << endl;
+    return 0;
 }
