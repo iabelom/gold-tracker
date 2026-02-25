@@ -52,4 +52,8 @@ cout << "x: " << x << ", y: " << y << endl;int num = 100;
 const int* p = &num;
 
 cout << "Value via const pointer: " << *p << endl;
-// *p = 200; // Error: cannot change through const pointer
+// *p = 200; // Error: cannot change through const pointerint a=10, b=20;
+int *pa=&a, *pb=&b;
+cout << "Before swap a=" << a << " b=" << b << endl;
+int temp=*pa; *pa=*pb; *pb=temp;
+cout << "After swap a=" << a << " b=" << b << endl;
