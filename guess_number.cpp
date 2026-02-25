@@ -11,4 +11,10 @@ int main(){
     return 0;
 }if(num>guess) cout << "Too high!\n";
 else if(num<guess) cout << "Too low!\n";
-else cout << "Correct!\n";
+else cout << "Correct!\n";while(num != guess){
+    cout << "Guess again: ";
+    cin >> num;
+    if(num>guess) cout << "Too high!\n";
+    else if(num<guess) cout << "Too low!\n";
+    else cout << "Correct!\n";
+}
