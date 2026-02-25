@@ -30,4 +30,13 @@ for (int i = 0; i < 2; i++) {
     for (int j = 0; j < 3; j++) {
         cout << "matrix[" << i << "][" << j << "] = " << matrix[i][j] << endl;
     }
+}int matrix[2][3] = {{1,2,3},{4,5,6}};
+int sum2D = 0;
+
+for(int i=0;i<2;i++){
+    for(int j=0;j<3;j++){
+        sum2D += matrix[i][j];
+    }
 }
+
+cout << "Sum of 2D array: " << sum2D << endl;
