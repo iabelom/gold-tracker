@@ -25,4 +25,9 @@ for (int i = 1; i < 5; i++) {
 
 cout << "Max: " << max_val << ", Min: " << min_val << endl;git add arrays.cpp
 git commit -m "feat: add array max and min example"
-git push
+git pushint matrix[2][3] = {{1,2,3},{4,5,6}};
+for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 3; j++) {
+        cout << "matrix[" << i << "][" << j << "] = " << matrix[i][j] << endl;
+    }
+}
