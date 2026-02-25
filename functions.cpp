@@ -85,4 +85,7 @@ int main(){
     return 0;
 }// This is a practice for 2D array sum
 // Loop through array
-// Print values
+// Print values// This function demonstrates default parameters
+int multiply(int a, int b=2){
+    return a*b;
+}
