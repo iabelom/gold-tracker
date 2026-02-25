@@ -33,4 +33,9 @@ int main() {
     }
 
     return 0;
-}
+}// Do-while loop example
+int k = 1;
+do {
+    cout << "Do-while count: " << k << endl;
+    k++;
+} while (k <= 5);
