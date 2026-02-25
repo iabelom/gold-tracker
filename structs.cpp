@@ -56,4 +56,9 @@ int main(){
     return 0;
 }Person p2 = {"Bob",30};
 Person* ptr = &p2;
-cout << ptr->name << " " << ptr->age << endl;
+cout << ptr->name << " " << ptr->age << endl;Person p1={"Alice",25};
+Person p2={"Bob",30};
+Person people[2]={p1,p2};
+for(int i=0;i<2;i++){
+    cout << people[i].name << " " << people[i].age << endl;
+}
