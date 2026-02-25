@@ -15,4 +15,12 @@ int main() {
 for (int i = 0; i < 5; i++) {
     sum += numbers[i];
 }
-cout << "Sum of array: " << sum << endl;
+cout << "Sum of array: " << sum << endl;int max_val = numbers[0];
+int min_val = numbers[0];
+
+for (int i = 1; i < 5; i++) {
+    if (numbers[i] > max_val) max_val = numbers[i];
+    if (numbers[i] < min_val) min_val = numbers[i];
+}
+
+cout << "Max: " << max_val << ", Min: " << min_val << endl;
