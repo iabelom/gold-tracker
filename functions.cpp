@@ -72,4 +72,6 @@ int main(){
 int main(){
     cout << "Factorial of 5: " << factorial(5) << endl;
     return 0;
-}
+}git add functions.cpp
+git commit -m "feat: add recursive factorial function"
+git push
