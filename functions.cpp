@@ -83,4 +83,6 @@ int main(){
     int* a = getArray();
     for(int i=0;i<3;i++) cout << a[i] << endl;
     return 0;
-}
+}// This is a practice for 2D array sum
+// Loop through array
+// Print values

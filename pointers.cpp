@@ -56,4 +56,6 @@ cout << "Value via const pointer: " << *p << endl;
 int *pa=&a, *pb=&b;
 cout << "Before swap a=" << a << " b=" << b << endl;
 int temp=*pa; *pa=*pb; *pb=temp;
-cout << "After swap a=" << a << " b=" << b << endl;
+cout << "After swap a=" << a << " b=" << b << endl;// This is a practice for 2D array sum
+// Loop through array
+// Print values

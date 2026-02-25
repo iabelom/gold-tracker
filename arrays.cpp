@@ -59,4 +59,6 @@ for(int i=0;i<2;i++){
     for(int j=0;j<2;j++){
         cout << "Name: " << names[i][j] << endl;
     }
-}
+}// This is a practice for 2D array sum
+// Loop through array
+// Print values
