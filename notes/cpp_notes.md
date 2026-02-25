@@ -33,4 +33,6 @@
 - ofstream outfile("file.txt");
 - ifstream infile("file.txt");
 - outfile << "text";
-- infile >> var;
+- infile >> var;## Struct + Pointer
+- struct* ptr = &myStruct;
+- Access members: ptr->member
