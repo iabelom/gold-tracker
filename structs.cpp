@@ -36,4 +36,12 @@ struct Event {
 Event e = {"Birthday", {25,12,2026}};
 cout << e.name << " on " << e.date.day << "/" << e.date.month << "/" << e.date.year << endl;git add pointers.cpp
 git commit -m "feat: add const pointer example"
-git push
+git pushvoid printPerson(Person p){
+    cout << "Name: " << p.name << ", Age: " << p.age << endl;
+}
+
+int main(){
+    Person p1 = {"Iabelom", 20};
+    printPerson(p1);
+    return 0;
+}
