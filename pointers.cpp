@@ -41,4 +41,11 @@ arr[0]=1; arr[1]=2; arr[2]=3;
 
 for(int i=0;i<3;i++) cout << arr[i] << endl;
 
-delete[] arr; // free memory
+delete[] arr; // free memoryint x=5, y=10;
+int *px=&x, *py=&y;
+
+int temp = *px;
+*px = *py;
+*py = temp;
+
+cout << "x: " << x << ", y: " << y << endl;
