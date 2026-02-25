@@ -23,4 +23,6 @@ for (int i = 1; i < 5; i++) {
     if (numbers[i] < min_val) min_val = numbers[i];
 }
 
-cout << "Max: " << max_val << ", Min: " << min_val << endl;
+cout << "Max: " << max_val << ", Min: " << min_val << endl;git add arrays.cpp
+git commit -m "feat: add array max and min example"
+git push
