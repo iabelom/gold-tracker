@@ -12,4 +12,14 @@
 - for, while, do-while
 
 ## Functions
-- void, return types
+- void, return types# C++ Notes
+
+...
+
+## Pointers
+- int* ptr = &variable;
+- *ptr accesses value
+
+## Structs
+- struct Name { ... };
+- Access with .
