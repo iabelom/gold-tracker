@@ -42,6 +42,22 @@ for(int i=0;i<3;i++){
     if(board[0][0]==board[1][1] && board[1][1]==board[2][2]) return true;
     if(board[0][2]==board[1][1] && board[1][1]==board[2][0]) return true;
     return false;
-}git add tic_tac_toe.cpp
-git commit -m "feat: add win check function for tic-tac-toe"
-git push
+}int player=1, moves=0;
+while(moves<9){
+    int choice;
+    cout << "Player " << player << " move: ";
+    cin >> choice;
+    int row=(choice-1)/3, col=(choice-1)%3;
+    board[row][col] = (player==1?'X':'O');
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++) cout << board[i][j] << " ";
+        cout << endl;
+    }
+    if(checkWin()){
+        cout << "Player " << player << " wins!\n";
+        break;
+    }
+    player = 3-player; // switch player
+    moves++;
+}
+if(moves==9) cout << "Draw!\n";
