@@ -8,4 +8,6 @@
 - Fibonacci sequence## Recursion Examples
 - Factorial: n! = n * (n-1)!
 - Fibonacci: F(n) = F(n-1) + F(n-2)
-- Base case is necessary to stop recursion
+- Base case is necessary to stop recursiongit add notes/advanced_notes.md
+git commit -m "docs: add recursion examples"
+git push
