@@ -12,4 +12,7 @@ int main(){
     return 0;
 }git add bank_account.cpp
 git commit -m "feat: add simple bank account project setup"
-git push
+git pushcout << "Balance check: " << acc1.balance << endl;
+cout << "Balance check: " << acc1.balance << endl;Account acc2 = {"Alice",500};
+Account accounts[2] = {acc1, acc2};
+for(int i=0;i<2;i++) cout << accounts[i].name << " has " << accounts[i].balance << endl;
