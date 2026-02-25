@@ -44,4 +44,14 @@ int main(){
     Person p1 = {"Iabelom", 20};
     printPerson(p1);
     return 0;
+}Person createPerson(string name, int age){
+    Person p;
+    p.name=name; p.age=age;
+    return p;
+}
+
+int main(){
+    Person p1 = createPerson("Alice",25);
+    cout << p1.name << " " << p1.age << endl;
+    return 0;
 }
