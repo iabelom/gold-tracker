@@ -43,4 +43,8 @@ for (int i = 1; i <= 3; i++) {
     for (int j = 1; j <= 2; j++) {
         cout << "i=" << i << ", j=" << j << endl;
     }
+}// Looping through array
+int arr[5] = {10, 20, 30, 40, 50};
+for (int i = 0; i < 5; i++) {
+    cout << "Array element: " << arr[i] << endl;
 }
