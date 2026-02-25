@@ -11,4 +11,8 @@ int main() {
     }
 
     return 0;
+}int sum = 0;
+for (int i = 0; i < 5; i++) {
+    sum += numbers[i];
 }
+cout << "Sum of array: " << sum << endl;
