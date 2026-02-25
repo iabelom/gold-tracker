@@ -42,4 +42,6 @@ for(int i=0;i<3;i++){
     if(board[0][0]==board[1][1] && board[1][1]==board[2][2]) return true;
     if(board[0][2]==board[1][1] && board[1][1]==board[2][0]) return true;
     return false;
-}
+}git add tic_tac_toe.cpp
+git commit -m "feat: add win check function for tic-tac-toe"
+git push
