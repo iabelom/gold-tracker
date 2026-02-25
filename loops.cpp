@@ -47,4 +47,9 @@ for (int i = 1; i <= 3; i++) {
 int arr[5] = {10, 20, 30, 40, 50};
 for (int i = 0; i < 5; i++) {
     cout << "Array element: " << arr[i] << endl;
-}
+}int arr[5];
+cout << "Enter 5 numbers: ";
+for(int i=0;i<5;i++) cin >> arr[i];
+cout << "You entered: ";
+for(int i=0;i<5;i++) cout << arr[i] << " ";
+cout << endl;
