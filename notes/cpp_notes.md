@@ -27,4 +27,6 @@
 - ++, --
 - ==, !=, <, >, <=, >=## Type Casting
 - int to float: float x = (float)i;
-- float to int: int y = (int)f;
+- float to int: int y = (int)f;## Constants & Enums
+- const int x = 5;
+- enum Colors {RED, GREEN, BLUE};
